@@ -115,6 +115,9 @@ class Track extends Object implements TrackSimple {
   /// The Spotify URI for the track.
   @override
   String? uri;
+  
+  @override
+  List<Image> images;
 }
 
 @JsonSerializable(createToJson: false)
