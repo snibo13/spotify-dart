@@ -117,7 +117,7 @@ class Track extends Object implements TrackSimple {
   String? uri;
   
   @override
-  List<Image> images;
+  List<Image>? images;
 }
 
 @JsonSerializable(createToJson: false)
