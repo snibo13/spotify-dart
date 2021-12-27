@@ -193,6 +193,10 @@ class TrackSimple extends Object {
 
   /// The Spotify URI for the track.
   String? uri;
+  
+  //The Spotify images: ADDED
+  List<Image>? images;
+  
 }
 
 /// A song saved in a Spotify user’s “Your Music” library
